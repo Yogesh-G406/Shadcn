@@ -17,7 +17,6 @@ import {
   Key,
   Users,
   CheckCircle2,
-  ChevronRight,
 } from 'lucide-react'
 import {
   Dialog,
@@ -165,7 +164,7 @@ export function RolesManagement() {
     )
   }
 
-  const toggleCategoryPermissions = (category: string, permissions: any[]) => {
+  const toggleCategoryPermissions = (_category: string, permissions: any[]) => {
     const categoryPermissionIds = permissions.map(p => p.id)
     const allSelected = categoryPermissionIds.every(id =>
       selectedPermissions.includes(id)

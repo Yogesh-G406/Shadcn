@@ -9,19 +9,10 @@ import {
   AlertCircle,
   TrendingUp,
   CheckCircle2,
-  XCircle,
   Plus,
   Calendar,
   Activity,
 } from 'lucide-react'
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from '@/components/ui/table'
 
 export function UserDashboard() {
   const navigate = useNavigate()

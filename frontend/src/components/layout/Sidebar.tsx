@@ -8,7 +8,6 @@ import {
   Activity,
   BarChart,
   Settings,
-  Lock
 } from 'lucide-react'
 import { Button } from '../ui/button'
 import { cn } from '@/lib/utils'
